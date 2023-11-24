@@ -1,0 +1,15 @@
+for ideo using the library of reactplayer,
+passing the static url(it will always be the same) for that particualr video 
+id, 
+
+passing controlls for that play and pause the video.
+
+
+for infinite scrolling --
+react infinite scroll component library
+
+for selecting in the filters--
+
+using react select library , 
+        -- agr usme multiple select krna hai to pass{{ isMulti}}
+        ---for sorting hitting the api end point of discover...., with_gneres, sort_by
