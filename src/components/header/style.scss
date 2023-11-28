@@ -50,6 +50,9 @@
             position: relative;
             left: -10rem;
         }
+        @include tsm{
+            margin-left: -38px;
+        }
     }
     .menuItems {
         list-style-type: none;
@@ -112,6 +115,9 @@
         margin-right: 80px;
         @include md {
             display: none;
+        }
+        @include tsm{
+            margin-right: 0px   ;
         }
         
         svg {

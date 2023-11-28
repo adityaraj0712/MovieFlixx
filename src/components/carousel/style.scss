@@ -47,6 +47,11 @@
             margin: 0;
             padding: 0;
         }
+        @include esm{
+            padding: 30px 75px;
+             margin-left: -85px;
+             gap: 5px;
+        }
         .skeletonItem {
             width: 125px;
             @include md {
@@ -83,12 +88,16 @@
         overflow-y: hidden;
         margin-right: -20px;
         margin-left: -20px;
-        padding: 0 20px;
+        padding: 30px 20px;
         @include md {
             gap: 20px;
-            overflow: hidden;
+            // overflow: hidden;
             margin: 0;
         
+        }
+        @include tsm{
+            padding: 30px 75px;
+            margin-left: -85px;
         }
 
         @include xxl{

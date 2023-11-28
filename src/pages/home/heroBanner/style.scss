@@ -7,17 +7,23 @@
      display: flex;
      align-items: center;
      position: relative;
+     
+
      @include md{
-        height: 700px;
+        height: 700px;  
      }
+     
      .backdrop-img{
-        width: 138%;
+        width: 136.5%;
         height: 100%;
         position: absolute;
         top: 0;
         left: -234px;
         opacity: 0.5;
         overflow: hidden;
+        @include esm{
+            width: 160%;
+        }
 
         .lazy-load-image-background{
             width: 100%;
@@ -43,6 +49,9 @@
             rgba(4, 21, 45, 0) 0%,
             #04152d 79.17%
         );
+        @include esm{
+            width: 161.6%;
+        }
     }
     .heroBannerContent{
         display: flex;
@@ -83,6 +92,7 @@
             display: flex;
             align-items: center;
             width: 100%;
+           
             input:hover{
                background-color: rgb(48, 50, 60);
                color: white;
@@ -98,6 +108,9 @@
                 border-radius: 30px 0 0 30px;
                 padding: 0 15px;
                 font-size: 14px;
+                @include esm{
+                    height: 41px;
+                }
 
                 @include md {
                 width: calc(100% - 150px);
@@ -126,6 +139,9 @@
                 border-radius: 0 30px 30px 0;
                 font-size: 16px;
                 cursor: pointer;
+                @include esm{
+                    height: 41px;
+                }
 
                 @include md{
                     width: 150px;
