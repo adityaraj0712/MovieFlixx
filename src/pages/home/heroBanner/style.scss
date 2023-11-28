@@ -13,6 +13,7 @@
         height: 700px;  
      }
      
+     
      .backdrop-img{
         width: 136.5%;
         height: 100%;
@@ -24,6 +25,10 @@
         @include esm{
             width: 160%;
         }
+        @include xxl{
+            width: 140%;
+         }
+
 
         .lazy-load-image-background{
             width: 100%;
@@ -52,6 +57,9 @@
         @include esm{
             width: 161.6%;
         }
+        @include xxl{
+            width: 141%;
+         }
     }
     .heroBannerContent{
         display: flex;
