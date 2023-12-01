@@ -12,6 +12,10 @@
         color: white;
         font-weight: normal;
         opacity: 0.5;   
-        margin-left: -47rem;
+        margin-left: -1rem;
+
+        // @include esm{
+        //     margin-left: 1rem;
+        // }
     }
 }

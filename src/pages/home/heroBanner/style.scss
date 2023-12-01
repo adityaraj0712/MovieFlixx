@@ -23,12 +23,15 @@
         opacity: 0.5;
         overflow: hidden;
         @include esm{
-            width: 160%;
+            width: 158%;
         }
         @include xxl{
-            width: 151%;
-            margin-left: -90px;
+            width: 144%;
+            margin-left: -89px;
         
+         }
+         @include bxl{
+            width: 143%;
          }
 
 
@@ -57,11 +60,11 @@
             #04152d 79.17%
         );
         @include esm{
-            width: 161.6%;
+            width: 159%;
         }
         @include xxl{
-            width: 151%;
-            margin-left: -90px;
+            width: 144%;
+          margin-left: -89px;
          }
     }
     .heroBannerContent{

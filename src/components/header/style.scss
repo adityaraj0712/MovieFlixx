@@ -48,10 +48,13 @@
         @include xxl{
             
             position: relative;
-            left: -10rem;
+            // left: -10rem;
         }
-        @include tsm{
+        @include bxl{
             margin-left: -38px;
+        }
+        @include esm{
+            margin-left: -2rem;
         }
     }
     .menuItems {
@@ -116,8 +119,11 @@
         @include md {
             display: none;
         }
-        @include tsm{
+        @include bxl{
             margin-right: 0px   ;
+        }
+        @include esm{
+            margin-right: 1rem;
         }
         
         svg {
